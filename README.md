@@ -1,8 +1,9 @@
 # KBRMTLBOT
 Remove a lingering bot reply keyboard from Telegram group chat.
 
-Try it with this link: https://t.me/no_kb_bot
+Telegram link: https://t.me/no_kb_bot
+Docker image: https://hub.docker.com/r/chistovsergeivadimovich/kbrmtlbot
 
-This is hardly a pet-project, as I did it in, like, less than 5 minutes.
+I can hardly call it a pet-project, as I did it in less than 5 minutes.
 
-I hope it may help you with that annoying thingy constantly appearing on your screen even after the bot removal.
+I hope it will help you with that annoying thingy constantly appearing on your screen, even after the original message removal.
