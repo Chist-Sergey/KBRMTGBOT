@@ -32,10 +32,10 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-      script: |
-        sudo docker pull chistovsergeivadimovich/kbrmtlbot:latest
-        sudo docker stop $(sudo docker ps -a -q)
-        sudo docker run --rm -d chistovsergeivadimovich/kbrmtlbot:latest
+        script: |
+          sudo docker pull chistovsergeivadimovich/kbrmtlbot:latest
+          sudo docker stop $(sudo docker ps -a -q)
+          sudo docker run --rm -d chistovsergeivadimovich/kbrmtlbot:latest
 
   send_message:
     runs-on: ubuntu-latest
